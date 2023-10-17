@@ -1,0 +1,100 @@
+// hover's
+@media (min-width: 992px) {
+    .btn-main-big:hover {
+        background-color: var(--bgOpacityGreen);
+        color: rgba($color: #000000, $alpha: 1.0);
+
+        svg>path {
+            stroke: var(--colorGreen);
+        }
+    }
+    .menu-link:hover {
+        color: var(--colorGreen);
+
+        &::before,
+        &::after{
+            width: 19px;
+        }
+    }
+    .menu-link.active {
+        color: var(--colorGreen);
+
+        &::before,
+        &::after{
+            width: 19px;
+        }
+    }
+    .menu__phone:hover {
+        color: var(--colorGreen);
+    }
+    .contact-page__item a{
+        &:hover {
+            background-color: var(--bgOpacityGreen);
+
+            svg rect{
+                fill: #fff;
+            }
+        }
+
+    }
+    ._main-btn{
+        &:hover {
+            background-color: var(--colorGreen);
+            color: white;
+
+            svg path {
+                stroke: #fff;
+            }
+        }
+    }
+    .about-us-dialog {
+        &__btn-close:hover {
+            background-color: var(--colorGreen);
+            svg path {stroke: #fff; fill: #fff}
+        }
+    }
+    .projects-dialog {
+        &__btn-close:hover {
+            background-color: var(--colorGreen);
+            svg path {stroke: #fff; fill: #fff}
+        }
+        &__block-link a:hover::before{
+            width: 100%;
+        }
+    }
+    .modal__close:hover {
+        background-color: var(--colorGreen);
+        svg path {stroke: #fff; fill: #fff}
+    }
+    .news__slide:hover {
+        background-color: var(--colorGreen);
+        time,
+        h3 {
+            color: white;
+        }
+        svg path {
+            stroke: #fff;
+        }
+    }
+    .requisites__list li:hover {
+        background-color: #E7FFEC;
+    }
+    .news {
+        &-pagination{
+            &__btn--count{
+                &:hover {
+                    color: var(--colorGreen);
+                    box-shadow: 1px 1px 6px 1px rgba(19,186,70,.3)
+                }
+            }
+            &__btn--nav{
+                &:hover {
+                    opacity: 1;
+                }
+                &.--hidden:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

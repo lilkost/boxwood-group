@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><?php echo $title ?></title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../local/templates/main/assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../local/templates/main/assets/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../local/templates/main/assets/fav/favicon-16x16.png">
+    <link rel="manifest" href="../local/templates/main/assets/fav/site.webmanifest">
+    <link rel="mask-icon" href="../local/templates/main/assets/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../local/templates/main/assets/css/style.min.css">
+    <link rel="stylesheet" href="../local/templates/main/assets/css/media.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+    <script src="../local/templates/main/assets/js/main.min.js" defer></script>
+    <script src="../local/templates/main/assets/js/main.js" defer></script>
+
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="header">
+    <div class="container">
+    <nav class="menu__nav">
+            <a href="index.php" class="logo">
+                <img src="../local/templates/main/assets/images/logo.svg" alt="">
+            </a>
+            <ul class="menu-list">
+                <li>
+                    <a class="menu-link" href="../verstka/about.php">About us</a>
+                </li>
+                <li>
+                    <a class="menu-link" href="../verstka/requisites.php">Requisites</a>
+                </li>
+                <li>
+                    <a class="menu-link" href="../verstka/contact.php">Contacts</a>
+                </li>
+            </ul>
+            <a class="menu__phone" href="tel:+79123456789">+7 912 345 67 89</a>
+            <button class="menu-burger-btn">
+                <span></span>
+            </button>
+        </nav>
+    </div>
+    </header>
+
+    <main class="main">
+            <section class="banner-main banner-main--one">
+               <div class="container">
+                <div class="banner-content">
+                    <div class="banner-content__item">
+                        <div class="banner-top">
+                            <div class="banner-top__decor"></div>
+                            <h1 class="banner-title">
+                                Investing as a force for <mark>good</mark>
+                            </h1>
+                        </div>
+                        <div class="banner-top__box">
+                            <p class="text-big">
+                                Boxwood is a private investment platform which operates as an open-ended fund with medium to long term horizon. Boxwood combines the capital and expertise of its founders with entrepreneurial ambition of proven, scalable and ESG-conscious businesses.<br>
+                            </p>
+                            <p class="text-big">
+                                Technology is the common denominator of everything we do: digital<br> infrastructure, telecom operators, CX industry, SaaS and software<br> development to name a few.
+                            </p>
+                        </div>
+                        <a class="btn-main-big" href="about.php">
+                            About the company
+                            <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M-1 8H15" stroke="white" stroke-width="2.99505"/>
+                                <path d="M11.3869 14.1421L20.3719 8.96064V7.04356L11.3869 1.94287" stroke="white" stroke-width="2.99505"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <picture class="banner-picture">
+                        <img src="../local/templates/main/assets/images/banerElem.png" alt="">
+                    </picture>
+                </div>
+               </div>
+            </section>
+            
+
+</main>
+<button class="modal__open">
+modal__open
+    </button>
+<footer class="footer">
+
+    <div class="container">
+        <div class="footer__inner">
+            <p class="footer-text-copyright">Copyright © Boxwood group. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<div class="modal">
+    <button class="modal__close">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L6.58586 8.00008L0.292893 14.293C-0.0976306 14.6836 -0.0976309 15.3167 0.292893 15.7073C0.683418 16.0978 1.31658 16.0978 1.70711 15.7073L8.00008 9.41429L14.2929 15.7071C14.6834 16.0976 15.3166 16.0976 15.7071 15.7071C16.0976 15.3166 16.0976 14.6834 15.7071 14.2929L9.41429 8.00008L15.7071 1.70726C16.0976 1.31673 16.0976 0.683569 15.7071 0.293044C15.3166 -0.09748 14.6834 -0.09748 14.2929 0.293044L8.00008 6.58586L1.70711 0.292893Z" fill="#13BA46"/>
+        </svg>
+    </button>
+    <h2 class="_main-title-middle">
+        Форма обратной связи
+    </h2>
+    <form action="#">
+        <label for="">
+            <span>Ваше имя *</span>
+            <input type="text" required placeholder="Ваше имя *">
+        </label>
+        <label for="">
+            <span>E-mail</span>
+            <input type="email"  placeholder="E-mail">
+        </label>
+        <label for="">
+            <span>
+                Телефон 
+            </span>
+            <input type="tel" required placeholder="Телефон">
+        </label>
+        <label for="">
+            <span>Комментарий</span>
+            <textarea type="text  placeholder="Комментарий"></textarea>
+        </label>
+        <button class="modal__btn _main-btn">
+            Отправить
+        </button>
+    </form>
+</div>
+
+</div>
+</body>
+</html>
