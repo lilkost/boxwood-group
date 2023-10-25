@@ -1,5 +1,5 @@
-Boxwood-group :  # Heading 1 #<br>
-[index page](https://lilkost.github.io/boxwood-group/verstka/)<br>
-[contact page](https://lilkost.github.io/boxwood-group/verstka/contact.html))<br>
-[requisites page](https://lilkost.github.io/boxwood-group/verstka/requisites.html))<br>
-[about page](https://lilkost.github.io/boxwood-group/verstka/about.html))<br>
+<h1 align="center">Boxwood-group </h1>
+<a href="https://lilkost.github.io/boxwood-group/verstka/">Главная</a> <br>
+<a href="https://lilkost.github.io/boxwood-group/verstka/contact.html">Контакты</a> <br>
+<a href="https://lilkost.github.io/boxwood-group/verstka/requisites.html">Реквизиты</a> <br>
+<a href="https://lilkost.github.io/boxwood-group/verstka/about.html">О Компании</a>
